@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Table </title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+            padding: 5px ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li>Company Profile</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+        <table>
+            <h1 style="color: blueviolet;">Company Employee Details</h1>
+            <caption>Salary Details</caption>
+        
+            <thead>
+                <tr>
+                    <td><b>No.</b></td>
+                    <td><b>Employee name</b></td>
+                    <td><b>Dept.</b></td>
+                    <td><b>Contact Num.</b></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Robi</td>
+                    <td>IT</td>
+                    <td>018</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sanju</td>
+                    <td>IT</td>
+                    <td>082</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Komola</td>
+                    <td>Accounts</td>
+                    <td>019</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>hablu</td>
+                    <td>HR</td>
+                    <td>011</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" style="color: red;">Total Employee in Our Company</td>
+                </tr>
+            </tfoot>
+            </table>
+        </section>
+        <section>
+            <form>
+                <label for="Name">Your name :
+                    <input id="Name" type="text" placeholder="your Name"> 
+                </label>
+                <label for="Email"> Write your email here 
+                    <input id="email"type="email" placeholder="Write an email">
+                </label>
+                <label for="password"> Insert password 
+                    <input id="password" type="password" placeholder="password" >
+                </label>
+                <label for="Date"> Select date
+                    <input id="Date" type="date" name="Birthday" >
+                    <button type="submit" style="color: red;"> Submit</button>
+                </label>
+            
+            <fieldset>
+                <legend>Select your color</legend>
+                    <label for="Red ">
+                        <input type="radio" name="ok" id="Red"> Color Red
+                    </label>
+                    <label for="Blue">
+                        <input type="radio" name="ok" id="Blue"> Select this
+                    </label>
+                    <label for="White">
+                        <input type="radio" name="ok" id="White"> this White
+                    </label>
+                    <input type="submit" value="Search">
+            </fieldset>
+            <fieldset>
+                <legend> <strong style="color: blueviolet;">Special Instruction of Customer</strong></legend>   
+                <label for="Comment">
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </label>             
+            </fieldset>
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+        </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

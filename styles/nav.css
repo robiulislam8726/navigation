@@ -1,0 +1,41 @@
+header{
+   border: 10px solid red;
+   
+
+}
+ul >li:hover {
+    color: blue;
+}
+nav ul{
+    display: flex;
+    
+    
+}
+nav li{
+   
+    list-style: none;
+    margin-right: 20px;
+    font-size: larger;
+    color: green;
+    text-decoration: none;
+   
+   
+}
+table{
+    border-collapse: collapse;
+}
+tr td{
+    border: 2px solid tomato;
+    padding: 5px;
+    text-align: justify;
+    color: blue;
+}
+form{
+    margin-top: 10px;
+        
+}
+section{
+    background-color: gray;
+    border: 2px solid tomato;
+    margin-top: 5px;
+}
